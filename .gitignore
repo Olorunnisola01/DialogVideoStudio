@@ -1,0 +1,15 @@
+build/
+dist/
+
+# Fetched by scripts/fetch_deps.ps1 - too large to commit.
+models/*.onnx
+tools/*.exe
+third_party/onnxruntime/include/
+third_party/onnxruntime/lib/
+
+*.dvsproj
+*.user
+
+# 7-Zip binaries copied in transiently while building the portable launcher
+packaging/7z.exe
+packaging/7z.dll
